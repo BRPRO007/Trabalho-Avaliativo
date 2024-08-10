@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="width: 320.94; height: 106;">La Sorella Gourmet</title>
+    <link rel="stylesheet" href="index2.css">
+    
+</style>
+</head>
+<body>
+   
+    <header class="center">
+        <h1 class="h1">La Sorella Gourmet</h1>
+        <nav class="color-nav background-nav"> Ajuda você a se conectar e compartilhar bons momentos com quem você ama,<br> através do sabor único das nossas pizzas. </nav>
+        <br>
+        <a  class="home" href="index.html">HOME</a>
+    </header>
+    
+    
+
+    <div class="centralizar fundo">
+        <form action="processar_pedido.php" method="post">
+            <br>
+            <br>
+            <input class="input" type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+            <br>
+            <br>
+            <input class="input" type="tel" id="telefone" name="telefone" placeholder="Seu Telefone" required>
+            <br>
+            <br>
+            <input class="input" type="text" id="endereco" name="endereco" placeholder="Seu Endereço" required>
+            <br>
+            <br>
+            <select id="tamanho" name="tamanho" required>
+                <option value="">Selecione o tamanho da Pizza</option>
+                <option value="pequena">Pequena</option>
+                <option value="media">Média</option>
+                <option value="grande">Grande</option>
+                <option value="familia">Família</option>
+            </select>
+            <br>
+            <br>
+            <textarea class="input" id="adicionais" name="adicionais" rows="3" placeholder="Adicionais"></textarea>
+            <br>
+            <br>
+            <textarea class="input" id="observacoes" name="observacoes" rows="3" placeholder="Observações"></textarea>
+            <br>
+            <br>
+            <input class="input" type="submit" value="Enviar Pedido">
+        </form>
+
+        
+    </div>     
+</body>
+</html>

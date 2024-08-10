@@ -1,0 +1,140 @@
+body{
+    background-color: #ffa07a;
+}
+#header{
+    color: #fff;
+    background-color: red;
+    text-align: center;
+}
+.h1-header{
+    color: yellow;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+.h3-header{
+    color:yellow;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+.link-cabeçalho{
+    text-decoration: none;
+    color: yellow;
+    word-spacing: 5px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-right: 50px;
+}
+#navegação{
+    padding-left: 16px;
+    padding-top: 1px;
+    color: yellow;
+    background-color: red;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.section-1{
+    color: yellow;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 150px;
+    border-radius: 12px;
+
+}
+.h2-section1{
+    font-family: arial;
+    font-size: 30px;
+}
+#section-grid{
+    padding: 10px;
+    height: 10%;
+    padding-bottom: 20px;
+}
+.section-2{
+    background-color: red;
+    margin:0 auto;
+    width: 50%;
+    max-width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    text-align: center;
+}
+.grid{
+    background-color: none;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 10px;
+    max-width: 300%;
+    margin:0 auto;
+    padding: 10px;
+}
+.sub-grid{
+    font-family: Verdana, arial ;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: rgb(223, 222, 222);
+    padding-bottom: 20px;
+    padding-top: 2px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.img-pizza{
+    max-width: 100%;
+    height: 157px;
+    width: 180px;
+}
+.p-preços{
+    font-family: Arial;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+.h2-cardapio{
+    font-family: arial;
+    font-size: 40px;
+    color: yellow;
+}
+.h2-sub-grid{
+    font-family: arial;
+    font-size: 20px;
+    color:red;
+    padding-bottom: 5px;
+}
+.botao-acao{
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.h1-class{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+.p-1{
+    font-size: 20px;
+}
+footer{
+    background-color: #ffa07a;
+    height: 50px;
+    border-radius: 15px;
+}
+.link-cabeçalho1{
+    padding-top: 10px;
+    text-decoration: none;
+    color: yellow;
+}
+.fatias{
+    font-family: arial;
+    font-size: 19px;
+    padding-bottom: 30px;
+}
